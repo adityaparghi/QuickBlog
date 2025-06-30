@@ -9,8 +9,7 @@ const Footer = () => {
       border-gray-500/30 text-gray-500'>
         <div className=''>
             <img src={assets.logo} alt='logo' className='w-32 sm:w-44' />
-            <p className='max-w-[240px] mt-6'>Lorem ipsum, dolor sit amet consectetur 
-            adipisicing elit. Quia aspernatur id aliquid nihil iste omnis!</p>
+            <p className='max-w-[240px] mt-6'>QuickBlog is your go-to platform for sharing ideas, exploring insights, and staying updated with the latest trends in tech, startups, and innovation. Built for speed, simplicity, and creativity.</p>
         </div>
          
         <div className='flex flex-wrap justify-between w-full md:w-[45%] gap-5'>
