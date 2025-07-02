@@ -36,12 +36,12 @@ const Login = () => {
             <form onSubmit={handleSubmit} className='w-full mt-6 sm:max-w-md text-gray-600'>
               <div className='flex flex-col'>
                   <label>Email</label>
-                  <input onChange={e => setEmail(e.target.value)} value={email} type='email' required placeholder='youe email id'
+                  <input onChange={e => setEmail(e.target.value)} value={email} type='email' required placeholder='your email id'
                   className='border-b-2 border-gray-300 p-2 outline-none mb-6' />
               </div>
               <div className='flex flex-col'>
                   <label>Password</label>
-                  <input onChange={e => setPassword(e.target.value)} value={password} type='password' required placeholder='youe password'
+                  <input onChange={e => setPassword(e.target.value)} value={password} type='password' required placeholder='your password'
                   className='border-b-2 border-gray-300 p-2 outline-none mb-6' />
               </div>
               <button type='submit' className='w-full py-3 bg-primary font-medium
