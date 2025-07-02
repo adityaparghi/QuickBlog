@@ -244,16 +244,33 @@ export const dashboard_data = {
 }
 
 export const footer_data = [
-      {
-          title: "Quick Links",
-          links: ["Home", "Best Sellers", "Offers & Deals", "Contact Us", "FAQs"]
-      },
-      {
-          title: "Need Help?",
-          links: ["Delivery Information", "Return & Refund Policy", "Payment Methods", "Track your Order", "Contact Us"]
-      },
-      {
-          title: "Follow Us",
-          links: ["Instagram", "Twitter", "Facebook", "YouTube"]
-      }
+    {
+      title: "Quick Links",
+      links: [
+        { name: "Home", url: "/" },
+        { name: "Explore Blogs", url: "/#" },
+        { name: "About Us", url: "/#" },
+        { name: "Contact Us", url: "/#" },
+        { name: "FAQs", url: "/#" }
+      ]
+    },
+    {
+      title: "Resources",
+      links: [
+        { name: "Write for Us", url: "/#" },
+        { name: "Newsletter", url: "/#" },
+        { name: "Terms and Conditions", url: "/#" },
+        { name: "Support", url: "/#" }
+      ]
+    },
+    {
+      title: "Follow Us",
+      links: [
+        { name: "Instagram", url: "https://www.instagram.com/three_fingers_26/" },
+        { name: "Twitter", url: "https://x.com/AdiParghi" },
+        { name: "Facebook", url: "#" },
+        { name: "YouTube", url: "https://youtube.com/@adityaparghi" }
+      ]
+    }
   ];
+  
